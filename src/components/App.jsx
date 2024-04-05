@@ -5,10 +5,9 @@ import { Statistics } from './Statistics';
 
 class App extends Component {
   state = {
-    good: 0,
-    neutral: 0,
-    bad: 0,
-    Regular: 0,
+    Good: 0,
+    Neutral: 0,
+    Bad: 0,
   };
 
   countTotalFeedback = () => {
